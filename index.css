@@ -17,21 +17,45 @@ body {
   padding: 0;
 }
 
+header {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  padding: 0.25rem;
+}
+
+header img {
+  width: 3rem;
+  height: 3rem;
+}
+
+header a {
+  color: rgb(58, 58, 58);
+  margin-left: 0.75rem;
+}
+
+header nav {
+  display: flex;
+  margin: auto 0;
+}
+
 main {
   width: 100%;
   max-width: 70rem;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 5rem;
 }
 
 .image {
-  background-color: transparent;
+  background-color: white;
   width: 100%;
   padding: 0.75rem;
   display: flex;
   border-radius: 10px;
   justify-content: space-around;
-  color: black;
+  color: rgb(58, 58, 58);
 }
 .image img {
   width: 15rem;
@@ -70,9 +94,9 @@ main {
 }
 
 .tech-stack {
-  background-color: transparent;
+  background-color: white;
   padding: 1rem;
-  color: black;
+  color: rgb(58, 58, 58);
   border-radius: 10px;
 }
 
@@ -84,6 +108,8 @@ main {
 .backend,
 .others {
   margin: 2.5rem auto;
+  align-items: center;
+  text-align: center;
   display: none;
 }
 
@@ -103,8 +129,8 @@ main {
 .frontend img,
 .backend img,
 .others img {
-  height: 5rem;
-  width: 5rem;
+  height: 3rem;
+  width: 3rem;
   object-fit: cover;
   background-color: transparent;
 }
@@ -136,9 +162,10 @@ main {
 }
 
 .experience-stack {
-  background-color: transparent;
-  padding: 0.5rem;
+  background-color: white;
+  padding: 1.25rem;
   margin: 0.75rem auto;
+  color: rgb(58, 58, 58);
   border-radius: 10px;
 }
 
@@ -153,7 +180,8 @@ main {
 
 .education,
 .experience {
-  margin: 0.25 auto;
+  margin: auto 5rem;
+  align-items: center;
   display: none;
 }
 
@@ -175,7 +203,21 @@ main {
   padding: 0;
   margin: 0;
   color: rgb(58, 58, 58);
-  list-style: circle;
+  list-style: disc;
+}
+
+.medium {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact h1 {
+  text-align: center;
+}
+
+.medium img {
+  height: 2rem;
+  width: 2rem;
 }
 .btn {
   cursor: pointer;
@@ -205,6 +247,29 @@ main {
   background-color: transparent;
 }
 
+footer {
+  background-color: transparent;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 4rem;
+  margin-bottom: 0;
+  text-align: center;
+  align-items: center;
+}
+
+footer img {
+  width: 1rem;
+  height: 1rem;
+  object-fit: cover;
+}
+
+footer div,p{
+  padding: 0;
+  margin: 0;
+}
+
 #text {
   color: rgb(138, 43, 226);
   width: 100%;
@@ -227,6 +292,12 @@ main {
 }
 
 @media (max-width: 48rem) {
+  header {
+    display: none;
+  }
+  main {
+    padding: 0.75rem;
+  }
   .image {
     flex-direction: column;
   }
@@ -256,8 +327,8 @@ main {
   .frontend img,
   .backend img,
   .others img {
-    height: 2rem;
-    width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
     object-fit: cover;
     background-color: transparent;
   }
@@ -285,5 +356,14 @@ main {
   .experience ol,
   .education ol {
     font-size: 0.75rem;
+  }
+  .education,
+  .experience {
+    margin: 0.5rem auto;
+  }
+
+  .medium img {
+    width: 1rem;
+    height: 1rem;
   }
 }
