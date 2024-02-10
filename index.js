@@ -14,13 +14,12 @@ const animateText = () => {
 
   // Set new text after deletion animation completes
   setTimeout(() => {
-      currentIndex = (currentIndex + 1) % texts.length;
-      developmentSpan.textContent = texts[currentIndex];
+    currentIndex = (currentIndex + 1) % texts.length;
+    developmentSpan.textContent = texts[currentIndex];
   }, 1000); // Half the duration of the animation
 };
 
 setInterval(animateText, 3000);
-
 
 //update the greeting according to time
 const greetingSpanElement = document.getElementById("time");
@@ -73,3 +72,27 @@ const showOthers = () => {
 othersButtonElement.addEventListener("click", showOthers);
 
 showFrontEnd();
+
+//change between experience and education
+let experienceButtonElement = document.getElementById("experience");
+let experienceDiv = document.querySelector(".experience");
+let educationButtonElement = document.getElementById("education");
+let educationDiv = document.querySelector(".education");
+
+const showExperience = () => {
+  experienceButtonElement.classList.remove("btn-alt");
+  experienceDiv.style.display = "block";
+  educationButtonElement.classList.add("btn-alt");
+  educationDiv.style.display = "none";
+};
+experienceButtonElement.addEventListener("click", showExperience);
+
+const showEducation = () => {
+  educationButtonElement.classList.remove("btn-alt");
+  educationDiv.style.display = "block";
+  experienceButtonElement.classList.add("btn-alt");
+  experienceDiv.style.display = "none";
+};
+educationButtonElement.addEventListener("click", showEducation);
+
+showExperience();

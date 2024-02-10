@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  list-style: none;
   font-family: "Raleway", sans-serif;
 }
 a {
@@ -26,7 +25,7 @@ main {
 }
 
 .image {
-  background-color: white;
+  background-color: transparent;
   width: 100%;
   padding: 0.75rem;
   display: flex;
@@ -41,7 +40,7 @@ main {
   border-radius: 30rem;
 }
 .greeting {
-  margin: auto 0;
+  margin: auto 0.25rem auto 0.25rem;
 }
 .greeting h1 {
   font-size: 2.5rem;
@@ -53,7 +52,7 @@ main {
 }
 
 .about {
-  background-color: white;
+  background-color: transparent;
   padding: 1rem;
   margin: 0.75rem auto;
   color: black;
@@ -71,7 +70,7 @@ main {
 }
 
 .tech-stack {
-  background-color: white;
+  background-color: transparent;
   padding: 1rem;
   color: black;
   border-radius: 10px;
@@ -110,6 +109,74 @@ main {
   background-color: transparent;
 }
 
+.projects {
+  background-color: transparent;
+  padding: 0.5rem;
+  margin: 0.75rem auto;
+  border-radius: 10px;
+}
+
+.projects h1 {
+  text-align: center;
+}
+
+.myprojs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}
+
+.myprojs div {
+  width: 20rem;
+  padding: 0.5rem;
+}
+
+.myprojs div img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.experience-stack {
+  background-color: transparent;
+  padding: 0.5rem;
+  margin: 0.75rem auto;
+  border-radius: 10px;
+}
+
+.experience-stack h1 {
+  text-align: center;
+}
+
+.experience-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.education,
+.experience {
+  margin: 0.25 auto;
+  display: none;
+}
+
+.experience ul,
+.education ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.experience p,
+.education p {
+  color: rgb(58, 58, 58);
+  font-weight: bold;
+}
+
+.experience ol,
+.education ol {
+  padding: 0;
+  margin: 0;
+  color: rgb(58, 58, 58);
+  list-style: circle;
+}
 .btn {
   cursor: pointer;
   font: inherit;
@@ -118,11 +185,12 @@ main {
   color: white;
   border: 1px solid rgb(138, 43, 226);
   border-radius: 4px;
+  text-align: center;
 }
 
 .btn-alt {
   background-color: transparent;
-  color:black;
+  color: black;
   border: none;
 }
 
@@ -137,8 +205,6 @@ main {
   background-color: transparent;
 }
 
-
-
 #text {
   color: rgb(138, 43, 226);
   width: 100%;
@@ -148,21 +214,17 @@ main {
 
 @keyframes slideText {
   0% {
-      transform: translateX(0);
+    transform: translateX(0);
   }
   50% {
-      opacity: 0; /* Fade out halfway through the animation */
-      transform: translateX(-20%);
+    opacity: 0; /* Fade out halfway through the animation */
+    transform: translateX(-20%);
   }
   100% {
-      opacity: 1; /* Fade in */
-      transform: translateX(-100%);
+    opacity: 1; /* Fade in */
+    transform: translateX(-100%);
   }
 }
-
-
-
-
 
 @media (max-width: 48rem) {
   .image {
@@ -212,5 +274,16 @@ main {
 
   .btn {
     margin-left: 0.5rem;
+  }
+
+  .experience p,
+  .education p {
+    color: rgb(58, 58, 58);
+    font-weight: bold;
+    font-size: 0.75rem;
+  }
+  .experience ol,
+  .education ol {
+    font-size: 0.75rem;
   }
 }
