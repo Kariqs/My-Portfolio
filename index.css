@@ -228,6 +228,7 @@ main {
   border: 1px solid rgb(138, 43, 226);
   border-radius: 4px;
   text-align: center;
+  margin-top: 0.125rem;
 }
 
 .btn-alt {
@@ -362,7 +363,7 @@ p {
   .experience {
     margin: 0.5rem auto;
   }
-  .myprojs div{
+  .myprojs div {
     width: 100%;
   }
   .myprojs {
