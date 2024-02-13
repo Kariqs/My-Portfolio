@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 a {
   text-decoration: none;
@@ -34,6 +34,10 @@ header img {
 header a {
   color: rgb(58, 58, 58);
   margin-left: 0.75rem;
+}
+
+header a:hover {
+  color: #ce5a67;
 }
 
 header nav {
@@ -90,7 +94,7 @@ main {
 }
 
 .full-stack {
-  color: rgb(138, 43, 226);
+  color: #ce5a67;
 }
 
 .tech-stack {
@@ -245,9 +249,9 @@ main {
   cursor: pointer;
   font: inherit;
   padding: 0.25rem 1.5rem;
-  background-color: rgb(138, 43, 226);
+  background-color: #ce5a67;
   color: white;
-  border: 1px solid rgb(138, 43, 226);
+  border: 1px solid #ce5a67;
   border-radius: 4px;
   text-align: center;
   margin-top: 0.25rem;
@@ -272,8 +276,9 @@ main {
 }
 
 footer {
-  background-color: transparent;
+  background-color: #1f1717;
   padding: 0.75rem;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -296,7 +301,7 @@ p {
 }
 
 #text {
-  color: rgb(138, 43, 226);
+  color: #ce5a67;
   width: 100%;
   height: 100%;
   animation: slideText 1s linear infinite;
@@ -346,7 +351,7 @@ p {
     font-size: 2rem;
   }
 
-  .about{
+  .about {
     font-size: 0.75rem;
   }
 
@@ -392,7 +397,7 @@ p {
     margin: 0.5rem auto;
   }
 
-  .projects-div{
+  .projects-div {
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     gap: 1.5rem;
     font-size: 0.75rem;
