@@ -4,14 +4,11 @@ export default function Skill() {
   const skills = [
     { skill: "HTML" },
     { skill: "CSS" },
-    { skill: "TAILWIND" },
     { skill: "JAVASCRIPT" },
-    { skill: "REACT JS" },
+    { skill: "NODE JS" },
     { skill: "FIREBASE" },
-    { skill: "FIGMA" },
     { skill: "PYTHON" },
     { skill: "React Native" },
-    { skill: "Expo" },
   ];
 
   const extendedSkills = [...skills, ...skills];
@@ -23,7 +20,8 @@ export default function Skill() {
           return (
             <li
               key={index}
-              className=" skill-move p-2 px-3 bg-[#202020] rounded-lg text-[#878787] font-semibold tracking-wider">
+              className=" skill-move p-2 px-3 bg-[#202020] rounded-lg text-[#878787] font-semibold tracking-wider"
+            >
               {skill.skill}
             </li>
           );

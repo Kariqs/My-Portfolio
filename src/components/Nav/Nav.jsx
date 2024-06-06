@@ -36,7 +36,7 @@ const Nav = ({ mode, changeMode }) => {
     <nav
       className={`z-[99] bg-[#070707] shadow-lg fixed flex justify-between px-[1.5rem] sm:px-[5rem] py-[1rem] top-0 left-0 w-full`}>
       <h1 className="logo tracking-wider text-xl">
-        Ferrazi<i className="fa-solid fa-circle text-[6px] text-myColor"></i>
+        KARIUKI<i className="fa-solid fa-circle text-[6px] text-myColor"></i>
       </h1>
       {!menu ? (
         <i

@@ -6,7 +6,7 @@ export default function Services() {
     {
       index: "01",
       icon: <i class="fa-solid fa-code"></i>,
-      title: "Software Engineering",
+      title: "Back-end Web Developer",
       writeUp: `I specialize in building robust and scalable
        software solutions tailored to meet diverse user
         needs and business requirements.`,
@@ -14,7 +14,7 @@ export default function Services() {
     {
       index: "02",
       icon: <i class="fa-solid fa-palette"></i>,
-      title: "Ui Design",
+      title: "Mobile Application Developer",
       writeUp: `With a keen eye for detail and a focus
        on user-centric design principles, I create
         visually stunning interfaces that enhance user

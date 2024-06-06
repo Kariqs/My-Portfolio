@@ -68,28 +68,27 @@ export default function About({ mode }) {
           <div className="opacity-[.7] text-sm flex flex-col gap-4 lg:text-base">
             <p>
               Greetings! I'm{" "}
-              <span className="text-myColor font-medium">Oyesola Dolapo</span>,
-              a seasoned software engineer and UI designer driven by the
+              <span className="text-myColor font-medium">Benard Kariuki</span>,
+              a seasoned backend developer and Mobile Application developer in
               pursuit of crafting immersive digital experiences. With a degree
               in{" "}
-              <span className="text-myColor font-medium">Computer Science</span>{" "}
+              <span className="text-myColor font-medium">Software Engineering</span>{" "}
               from{" "}
-              <span className="text-myColor font-medium">Caleb University</span>
+              <span className="text-myColor font-medium">Kisii University</span>
               , my journey into technology began, fueled by an innate curiosity
-              for coding and design.
+              for coding and passion to solve real world problems using technology.
             </p>{" "}
             <p>
               In the realm of software development, I specialize in{" "}
-              <span className="text-myColor font-medium">React JS</span>, adept
+              <span className="text-myColor font-medium">NodeJS</span>, adept
               at transforming conceptual ideas into robust, user-centric
               solutions. Concurrently, my passion for{" "}
-              <span className="text-myColor font-medium">UI Design</span> stems
-              from a belief in the power of aesthetics to elevate functionality,
-              creating interfaces that resonate with users on a profound level.
+              <span className="text-myColor font-medium">Mobile Development</span> stems
+              from a belief in the power of mobile applications in solving real world problems.
             </p>{" "}
             <p>
               Beyond the screen, I find inspiration in{" "}
-              <span className="text-myColor font-medium">Drawing</span>. Whether
+              <span className="text-myColor font-medium">Reading</span>. Whether
               it's exploring the latest tech trends or immersing myself in
               nature, I'm always seeking new sources of creativity and
               innovation.

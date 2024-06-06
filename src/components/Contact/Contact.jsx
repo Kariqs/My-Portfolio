@@ -6,19 +6,19 @@ export default function Contact({ mode }) {
     {
       id: "1",
       icon: <i class="fa-solid fa-phone"></i>,
-      text: "+234 906 721 9868",
-      link: "tel:+234 906 721 9868",
+      text: "+254712439166",
+      link: "tel:+254712439166",
     },
     {
       id: "2",
       icon: <i class="fa-solid fa-envelope"></i>,
-      text: "oyesolabolamide@gmail.com",
-      link: "mailto:oyesolabolamide@gmail.com",
+      text: "kariukibenard189@gmail.com",
+      link: "mailto:kariukibenard189@gmail.com",
     },
     {
       id: "3",
       icon: <i class="fa-solid fa-location-dot"></i>,
-      text: "Lagos, Nigeria",
+      text: "Nairobi, Kenya",
     },
   ];
   return (
@@ -70,7 +70,7 @@ export default function Contact({ mode }) {
           viewport={{ once: true }}
           className="lg:w-[50%] flex">
           <form
-            action="https://formsubmit.co/oyesolabolamide@gmail.com"
+            action="https://formsubmit.co/kariukibenard189@gmail.com"
             method="POST"
             target="_blank"
             className="lg:mx-auto lg:w-[85%]">

@@ -24,19 +24,11 @@ export default function Footer({ mode }) {
   const socials = [
     {
       icon: <i class="fa-brands fa-x-twitter"></i>,
-      link: "https://twitter.com/ferraziii",
-    },
-    {
-      icon: <i class="fa-brands fa-facebook-f"></i>,
-      link: "https://web.facebook.com/Ferrazi.lee.5/",
-    },
-    {
-      icon: <i class="fa-brands fa-instagram"></i>,
-      link: "https://www.instagram.com/ferrazi.dev/",
+      link: "https://twitter.com/dev_Benard",
     },
     {
       icon: <i class="fa-brands fa-whatsapp"></i>,
-      link: "https://wa.me/2349067219868",
+      link: "https://wa.me/254712439166",
     },
   ];
 
@@ -51,7 +43,7 @@ export default function Footer({ mode }) {
         whileInView={"show"}
         viewport={{ once: true }}
         className="mb-4 logo tracking-wider text-xl">
-        Ferrazi<i className="fa-solid fa-circle text-[6px] text-myColor"></i>
+        BENARD<i className="fa-solid fa-circle text-[6px] text-myColor"></i>
       </motion.h1>
       <div
         className={`${
@@ -63,8 +55,8 @@ export default function Footer({ mode }) {
           whileInView={"show"}
           viewport={{ once: true }}
           className="flex flex-col gap-[1rem] lg:gap-[1rem] lg:px-[4rem] lg:pb-[3rem]">
-          <p>Software Engineer</p>
-          <p>Ui Designer</p>
+          <p>Web Developer</p>
+          <p>Mobile Application Developer</p>
         </motion.div>
         <motion.ul
           variants={fadeIn("up", 0, 1)}
