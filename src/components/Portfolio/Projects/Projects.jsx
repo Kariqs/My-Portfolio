@@ -18,81 +18,16 @@ export default function Projects({ mode }) {
       ],
     },
     {
-      title: "Carway",
-      image: "/images/project/Carway.webp",
-      button: [
-        { btnText: "Demo", link: "https://oyesola-dolapo.github.io/Carway/" },
-        { btnText: "Code", link: "https://github.com/oyesola-dolapo/Carway/" },
-      ],
-    },
-
-    {
-      title: "NFT Dashboard",
-      image: "/images/project/NFT.webp",
+      title: "BUYABOOK",
+      image: "/images/project/BuyABook.webp",
       button: [
         {
           btnText: "Demo",
-          link: "https://www.behance.net/gallery/165368609/NFT-Marketplace-Dashboard",
-        },
-        {
-          btnText: "Design",
-          link: "https://www.figma.com/file/4OypLn3qSmjImRvOyIvz9v/NFT?type=design&node-id=0%3A1&mode=design&t=kK65jgb0QMbhNZWu-1",
-        },
-      ],
-    },
-    {
-      title: "Furniture",
-      image: "/images/project/Furniture.webp",
-      button: [
-        {
-          btnText: "Demo",
-          link: "https://oyesola-dolapo.github.io/furniture-e-commerce/",
+          link: "https://fancy-tapioca-545212.netlify.app/",
         },
         {
           btnText: "Code",
-          link: "https://github.com/oyesola-dolapo/furniture-e-commerce",
-        },
-      ],
-    },
-    {
-      title: "Nike",
-      image: "/images/project/Nike.webp",
-      button: [
-        {
-          btnText: "Demo",
-          link: "https://oyesola-dolapo.github.io/Nike/",
-        },
-        {
-          btnText: "Code",
-          link: "https://github.com/oyesola-dolapo/Nike",
-        },
-      ],
-    },
-    {
-      title: "Kuda clone",
-      image: "/images/project/Kuda.webp",
-      button: [
-        {
-          btnText: "Demo",
-          link: "https://www.behance.net/gallery/160756153/Kuda-Bank-Landing-page",
-        },
-        {
-          btnText: "Design",
-          link: "https://www.figma.com/design/8V8AzLqtS3I6D6vZeGbhS9/kuda.?node-id=0-1&t=rsoWCmiY5e9LDq3X-1e",
-        },
-      ],
-    },
-    {
-      title: "Fitness",
-      image: "/images/project/gym.webp",
-      button: [
-        {
-          btnText: "Demo",
-          link: "https://oyesola-dolapo.github.io/Gym/",
-        },
-        {
-          btnText: "Code",
-          link: "https://github.com/oyesola-dolapo/Gym",
+          link: "https://github.com/Kariqs/BuyaBook",
         },
       ],
     },
