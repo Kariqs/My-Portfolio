@@ -5,7 +5,7 @@ export default function Projects({ mode }) {
   const projects = [
     {
       title: "𝟗ƑℲ",
-      image: "/images/project/9ff.webp",
+      image: "/images/project/DevShop.webp",
       button: [
         {
           btnText: "Demo",
@@ -13,7 +13,7 @@ export default function Projects({ mode }) {
         },
         {
           btnText: "Code",
-          link: "https://github.com/oyesola-dolapo/jossyy",
+          link: "https://github.com/Kariqs/WebShop",
         },
       ],
     },
