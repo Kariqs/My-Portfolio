@@ -4,7 +4,7 @@ import { fadeIn } from "/src/components/Variants.js";
 export default function Projects({ mode }) {
   const projects = [
     {
-      title: "𝟗ƑℲ",
+      title: "DEVSHOP",
       image: "/images/project/DevShop.webp",
       button: [
         {
