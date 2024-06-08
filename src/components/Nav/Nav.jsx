@@ -95,7 +95,7 @@ const Nav = ({ mode, changeMode }) => {
         </ul>
         <button>
           <a
-            href="../file/Resume-Oyesola-Dolapo.pdf"
+            href="../file/Resume-Benard-Kariuki.pdf"
             target="_blank"
             className={`text-black bg-myColor rounded px-4 py-2`}>
             View Resume <i class="fa-solid fa-download ml-2"></i>
