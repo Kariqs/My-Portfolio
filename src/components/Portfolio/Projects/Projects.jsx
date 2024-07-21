@@ -5,7 +5,7 @@ export default function Projects({ mode }) {
   const projects = [
     {
       title: "Car-Hawa",
-      image: "/images/project/Car-Hawa(2).webp",
+      image: "/images/project/CarHawa.webp",
       button: [
         {
           btnText: "Demo",
