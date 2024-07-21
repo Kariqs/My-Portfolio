@@ -17,34 +17,6 @@ export default function Projects({ mode }) {
         },
       ],
     },
-    {
-      title: "DEVSHOP",
-      image: "/images/project/DevShop.webp",
-      button: [
-        {
-          btnText: "Demo",
-          link: "/",
-        },
-        {
-          btnText: "Code",
-          link: "https://github.com/Kariqs/WebShop",
-        },
-      ],
-    },
-    {
-      title: "BUYABOOK",
-      image: "/images/project/BuyABook.webp",
-      button: [
-        {
-          btnText: "Demo",
-          link: "/",
-        },
-        {
-          btnText: "Code",
-          link: "https://github.com/Kariqs/BuyaBook",
-        },
-      ],
-    },
   ];
 
   return (
