@@ -17,6 +17,20 @@ export default function Projects({ mode }) {
         },
       ],
     },
+    {
+      title: "Comfy Inn Website",
+      image: "/images/project/Comfy-Inn.png",
+      button: [
+        {
+          btnText: "Demo",
+          link: "https://comfy-inn.vercel.app/",
+        },
+        {
+          btnText: "Code",
+          link: "https://github.com/Kariqs/hotel-reservation ",
+        },
+      ],
+    },
   ];
 
   return (
