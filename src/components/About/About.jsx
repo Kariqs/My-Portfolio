@@ -44,7 +44,7 @@ export default function About({ mode }) {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true }}
-              src="../../images/progIcons/react.webp"
+              src="../../images/progIcons/nodejs.webp"
               alt=""
               className="icon right-2 top-10 lg:right-6 lg:top-20"
             />
@@ -53,7 +53,7 @@ export default function About({ mode }) {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true }}
-              src="../../images/progIcons/figma.webp"
+              src="../../images/progIcons/java.webp"
               alt=""
               className="icon right-0 bottom-10 lg:right-4 lg:bottom-20"
             />
