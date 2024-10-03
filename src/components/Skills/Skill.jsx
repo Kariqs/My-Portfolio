@@ -6,9 +6,11 @@ export default function Skill() {
     { skill: "CSS" },
     { skill: "JAVASCRIPT" },
     { skill: "NODE JS" },
-    { skill: "FIREBASE" },
-    { skill: "PYTHON" },
-    { skill: "React Native" },
+    { skill: "JAVA" },
+    { skill: "MONGODB" },
+    { skill: "SQL" },
+    { skill: "GIT AND GITHUB" },
+    { skill: "EXPRESS JS" },
   ];
 
   const extendedSkills = [...skills, ...skills];
