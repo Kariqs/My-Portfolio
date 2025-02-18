@@ -5,7 +5,7 @@ import { fadeIn } from "../Variants";
 
 export default function Intro() {
   const [typeEffect] = useTypewriter({
-    words: ["Back-End Web Developer", "Mobile Application Developer"],
+    words: ["Back-End Developer", "Front-End Web Developer"],
     loop: {},
     typeSpeed: 80,
     deleteSpeed: 50,

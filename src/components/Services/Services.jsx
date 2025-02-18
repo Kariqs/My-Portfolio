@@ -8,8 +8,8 @@ export default function Services() {
       icon: <i class="fa-solid fa-server"></i>,
       title: "Back-end Developer",
       writeUp: `I specialize in building robust and scalable
-       back ends tailored to meet diverse user
-        needs and business requirements using NodeJS (Using both ExpressJS and NestJS Framework) and Golang.`,
+       back ends (REST APIs) tailored to meet diverse user
+        needs and business requirements using NodeJS (with both ExpressJS and NestJS Framework) and Golang.`,
     },
     {
       index: "02",
