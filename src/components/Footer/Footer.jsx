@@ -55,8 +55,8 @@ export default function Footer({ mode }) {
           whileInView={"show"}
           viewport={{ once: true }}
           className="flex flex-col gap-[1rem] lg:gap-[1rem] lg:px-[4rem] lg:pb-[3rem]">
-          <p>Web Developer</p>
-          <p>Mobile Application Developer</p>
+          <p>Back-end Developer</p>
+          <p>Front-end Web Developer</p>
         </motion.div>
         <motion.ul
           variants={fadeIn("up", 0, 1)}

@@ -69,7 +69,7 @@ export default function About({ mode }) {
             <p>
               Greetings! I'm{" "}
               <span className="text-myColor font-medium">Benard Kariuki</span>,
-              a seasoned backend developer and Mobile Application developer in
+              a seasoned Back-end developer and Front-end developer in
               pursuit of crafting immersive digital experiences. With a degree
               in{" "}
               <span className="text-myColor font-medium">Software Engineering</span>{" "}
@@ -80,11 +80,11 @@ export default function About({ mode }) {
             </p>{" "}
             <p>
               In the realm of software development, I specialize in{" "}
-              <span className="text-myColor font-medium">NodeJS</span>, adept
+              <span className="text-myColor font-medium">NodeJS and Golang</span>, adept
               at transforming conceptual ideas into robust, user-centric
               solutions. Concurrently, my passion for{" "}
-              <span className="text-myColor font-medium">Mobile Development</span> stems
-              from a belief in the power of mobile applications in solving real world problems.
+              <span className="text-myColor font-medium">Front-end development</span> stems
+              from a belief in the power of user-centered front-ends in solving real world problems.
             </p>{" "}
             <p>
               Beyond the screen, I find inspiration in{" "}
