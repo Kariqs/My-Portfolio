@@ -2,15 +2,14 @@ import React from "react";
 
 export default function Skill() {
   const skills = [
-    { skill: "HTML" },
-    { skill: "CSS" },
     { skill: "JAVASCRIPT" },
     { skill: "NODE JS" },
     { skill: "JAVA" },
     { skill: "MONGODB" },
     { skill: "SQL" },
+    { skill: "POSTGRES" },
     { skill: "GIT AND GITHUB" },
-    { skill: "EXPRESS JS" },
+    { skill: "GOLANG" },
   ];
 
   const extendedSkills = [...skills, ...skills];

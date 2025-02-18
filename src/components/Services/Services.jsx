@@ -5,19 +5,18 @@ export default function Services() {
   const cards = [
     {
       index: "01",
-      icon: <i class="fa-solid fa-code"></i>,
-      title: "Back-end Web Developer",
+      icon: <i class="fa-solid fa-server"></i>,
+      title: "Back-end Developer",
       writeUp: `I specialize in building robust and scalable
        back ends tailored to meet diverse user
-        needs and business requirements using NodeJS and Express.`,
+        needs and business requirements using NodeJS (Using both ExpressJS and NestJS Framework) and Golang.`,
     },
     {
       index: "02",
-      icon: <i class="fa-solid fa-palette"></i>,
-      title: "Mobile Application Developer",
-      writeUp: `With a keen eye for detail and a focus
-       on user-centric design principles, I create
-        fully functioning mobile apps that enhance user
+      icon: <i class="fa-solid fa-laptop-code"></i>,
+      title: "Front-end Web Developer",
+      writeUp: `With a keen eye for detail and a clear understanding of Angular, I create
+        fully functioning web front-ends  that enhance user
          experience and engagement.`,
     },
   ];

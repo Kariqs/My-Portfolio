@@ -35,7 +35,7 @@ export default function About({ mode }) {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true }}
-              src="../../images/progIcons/css.webp"
+              src="../../images/progIcons/angular.webp"
               alt=""
               className="icon bottom-10 lg:bottom-20"
             />
@@ -53,7 +53,7 @@ export default function About({ mode }) {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: true }}
-              src="../../images/progIcons/java.webp"
+              src="../../images/progIcons/go.webp"
               alt=""
               className="icon right-0 bottom-10 lg:right-4 lg:bottom-20"
             />
