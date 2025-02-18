@@ -9,7 +9,7 @@ export default function Services() {
       title: "Back-end Developer",
       writeUp: `I specialize in building robust and scalable
        back ends (REST APIs) tailored to meet diverse user
-        needs and business requirements using NodeJS (with both ExpressJS and NestJS Framework) and Golang.`,
+        needs and business requirements using NodeJS (with both ExpressJS and NestJS Frameworks) and Golang.`,
     },
     {
       index: "02",
