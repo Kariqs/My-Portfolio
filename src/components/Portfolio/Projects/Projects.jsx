@@ -31,6 +31,34 @@ export default function Projects({ mode }) {
         },
       ],
     },
+    {
+      title: "Amexan",
+      image: "/images/project/amexan.png",
+      button: [
+        {
+          btnText: "Demo",
+          link: "https://www.amexan.store/",
+        },
+        {
+          btnText: "Code",
+          link: "https://github.com/Kariqs/amexan_ui",
+        },
+      ],
+    },
+    {
+      title: "Meswo",
+      image: "/images/project/meswo.png",
+      button: [
+        {
+          btnText: "Demo",
+          link: "https://meswomedicalservices.vercel.app/",
+        },
+        {
+          btnText: "Code",
+          link: "https://github.com/Kariqs/meswo",
+        },
+      ],
+    },
   ];
 
   return (
