@@ -1,20 +1,16 @@
-<!-- app.component.html -->
 <div class="min-h-screen bg-cover bg-center flex items-center justify-center p-4"
   style="background-image: url('https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=1920&q=80')">
   <div class="bg-white/95 backdrop-blur-sm shadow-2xl w-full max-w-md overflow-hidden relative z-10">
 
-    <!-- Header -->
     <div class="flex flex-col items-center justify-center gap-3 p-6 border-b border-gray-200 text-center">
       <div class="w-16 h-16 rounded-full overflow-hidden bg-teal-600 flex items-center justify-center">
         <img src="assets/images/dp.jpg" alt="Benard Kariuki" class="w-full h-full object-cover" />
       </div>
-      <h1 class="text-2xl uppercase font-bold text-gray-800">
+      <h1 class="text-2xl font-bold text-gray-800">
         Kariqs
       </h1>
     </div>
 
-
-    <!-- Navigation Items -->
     <nav>
       @for (item of navItems; track item.id; let last = $last) {
       <div [class.border-b]="!last" class="border-gray-200">
@@ -52,9 +48,7 @@
       }
     </nav>
 
-    <!-- Social Links -->
     <div class="px-6 py-4 flex items-center justify-center gap-4 border-t border-gray-200">
-      <!-- WhatsApp -->
       <a href="https://wa.me/+254712439166" target="_blank"
         class="text-gray-600 hover:text-green-600 transition-colors">
         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -63,7 +57,6 @@
         </svg>
       </a>
 
-      <!-- Instagram -->
       <a href="https://instagram.com/_kariqs" target="_blank"
         class="text-gray-600 hover:text-pink-600 transition-colors">
         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -72,7 +65,6 @@
         </svg>
       </a>
 
-      <!-- X (Twitter) -->
       <a href="https://x.com/dev_Kariqs" target="_blank" class="text-gray-600 hover:text-gray-900 transition-colors">
         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
           <path
@@ -80,7 +72,6 @@
         </svg>
       </a>
 
-      <!-- GitHub -->
       <a href="https://github.com/Kariqs" target="_blank" class="text-gray-600 hover:text-gray-900 transition-colors">
         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
           <path

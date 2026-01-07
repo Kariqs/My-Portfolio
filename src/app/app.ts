@@ -29,10 +29,10 @@ Based in Kenya.
       `,
     },
     {
-      id: 'works',
-      title: 'Works',
+      id: 'projects',
+      title: 'Projects',
       isExternal: true,
-      url: '/works',
+      url: '/projects',
     },
     {
       id: 'resume',
