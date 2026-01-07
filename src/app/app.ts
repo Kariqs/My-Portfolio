@@ -23,7 +23,7 @@ export class App {
       id: 'about',
       title: 'About Me',
       description: `
-      Software Engineer specializing in Angular, TypeScript, Golang and modern web technologies.
+      I'm Benard Kariuki, a Software Engineer specializing in Angular, TypeScript, Golang and modern web technologies.
 Passionate about clean code, performance and beautiful user experiences.
 Based in Kenya.
       `,
